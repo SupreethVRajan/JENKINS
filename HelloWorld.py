@@ -1,2 +1,5 @@
-for _ in range(5):
-  print('Hello World!!')
+def multiply(a, b):
+  return a*b
+
+if __name__ == "__main__":
+  print(multiply(5, 5))
